@@ -1,8 +1,8 @@
 import streamlit as st
 st.title('나의 첫 Streamlit 앱')
 st.write('안녕하세요!')
-import pandas as pd
 import streamlit as st
+import pandas as pd
 import plotly.express as px
 
 # Google Drive CSV 링크
@@ -15,7 +15,6 @@ def load_data():
 
 df = load_data()
 
-# 앱 UI
 st.title("📊 Plotly 시각화 웹앱 (Google Drive CSV)")
 st.markdown("Google Drive에서 데이터를 불러와 Plotly로 시각화합니다.")
 
